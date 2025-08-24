@@ -430,15 +430,14 @@
                 <div class="status-legend">
                     <div class="card">
                         <h3>🎛️ Status Kontrol Suhu</h3>
-                        <div class="legend-item"><div class="legend-color" style="background-color: #3498db;"></div><span>Suhu < 25°C: Lampu Menyala</span></div>
+                        <div class="legend-item"><div class="legend-color" style="background-color: #3498db;"></div><span>Suhu < 22°C: Lampu Menyala</span></div>
                         <div class="legend-item"><div class="legend-color" style="background-color: #27ae60;"></div><span>Suhu 25-28°C: Suhu Normal</span></div>
                         <div class="legend-item"><div class="legend-color" style="background-color: #e74c3c;"></div><span>Suhu > 28°C: Kipas Menyala</span></div>
                     </div>
                     <div class="card">
                         <h3>🌬️ Status Kualitas Udara (PPM)</h3>
-                        <div class="legend-item"><div class="legend-color" style="background-color: #27ae60;"></div><span>0-10 ppm: Baik</span></div>
-                        <div class="legend-item"><div class="legend-color" style="background-color: #f39c12;"></div><span>11-24 ppm: Normal/Buruk</span></div>
-                        <div class="legend-item"><div class="legend-color" style="background-color: #e74c3c;"></div><span>≥25 ppm: Sangat Buruk</span></div>
+                        <div class="legend-item"><div class="legend-color" style="background-color: #27ae60;"></div><span>0-4 ppm: Baik</span></div>
+                        <div class="legend-item"><div class="legend-color" style="background-color: #e74c3c;"></div><span>>5 ppm: Sangat Buruk</span></div>
                     </div>
                 </div>`;
             document.getElementById('dashboard-content').innerHTML = content;
@@ -657,4 +656,5 @@
 </body>
 
 </html>
+
 
